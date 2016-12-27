@@ -11,7 +11,7 @@ rm(data_all)
 datetime <- paste(as.Date(data$Date), data$Time)
 data$Datetime <- as.POSIXct(datetime)
 
-## Plot 1
+## Create Plot 1
 hist(data$Global_active_power, main="Global Active Power", 
      xlab="Global Active Power (kilowatts)", ylab="Frequency", col="Red")
 
