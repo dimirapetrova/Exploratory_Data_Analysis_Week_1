@@ -1,0 +1,18 @@
+---
+title: "README"
+author: "Dimira Petrova"
+date: "27 December 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Exloratory Data Analysis Assignment Week 1
+The code consists of 4 R files consisting a code that produces the graps shown in the graphs. 
+
+- To be able to run it you need to the dataset from the following address:
+https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+- Extract the data
+- Unzip the data
